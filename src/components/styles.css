@@ -1,0 +1,46 @@
+.datepicker-wrapper {
+} 
+
+.ant-picker {
+  opacity: 0;
+}
+
+.ant-picker-dropdown.ant-picker-dropdown-placement-bottomLeft {
+  top: 0px !important;
+  font-size: 1.5em;
+  transition: all 0.2s ease;
+}
+
+.ant-picker-footer {
+  display: none;
+}
+
+.ant-picker-date-panel {
+  width: 800px;
+}
+
+.ant-picker-content {
+  width: 100% !important;
+}
+
+.ant-picker-content tbody {
+  line-height: 4.6;
+}
+
+.ant-picker-cell .ant-picker-cell-inner{
+  height: auto !important;
+}
+
+.ant-picker-cell-selected .ant-picker-cell-inner {
+  padding: 0rem;
+  border: 3px solid rgb(100, 100, 100);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  transition: all 0.15s ease-in-out;
+}
+
+.full {
+    pointer-events: none !important;
+}
+
